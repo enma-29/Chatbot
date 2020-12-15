@@ -1,7 +1,7 @@
 import random
 import requests as requests
 
-
+#holi
 url = "https://api.telegram.org/bot1405694549:AAFXfSbubq3dNsXLSisL_EV3vbtM5SnlU5M/"
 #tomar el id del chat
 def id_chat(update):
@@ -27,7 +27,6 @@ def ult_act(req):
 	return result[total_act]
 	
 	#toma el ultimo archivo de mensaje actualizado
-
 #enviar mensaje
 def send_msj(chat_id, txt):
 	prm ={"chat_id": chat_id, "text": txt}
