@@ -1,7 +1,7 @@
 import random
 import requests as requests
 
-#hola senior
+#adios senior
 url = "https://api.telegram.org/bot1405694549:AAFXfSbubq3dNsXLSisL_EV3vbtM5SnlU5M/"
 #tomar el id del chat
 def id_chat(update):
